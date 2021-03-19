@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Youtube Mobile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/5e187ccf7d.js" crossorigin="anonymous"></script>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+
+</head>
+<body>
+<div id="body__container">
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- VIDEO PLAYER -->
+    <section class="player">
+        <video loop="true" autoplay="autoplay" controls muted>
+            <source src="./assets/video/dua-lipa-physical-official-video.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- INFO AND UP NEXT -->
+    <div class="infoAndUpNext">
+        <!-- VIDEO INFO -->
+        <section class="info">
+            <!-- Metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#DUAFORPEPE</li>
+                    <li>#DuaLipa</li>
+                    <li>#Physical</li>
+                </ul>
+                <div class="titleAndButton">
+                <span class="title clamp">
+                    Dua Lipa - Physical (Official Video) | Taken from her second studio album 'Future Nostalgia' released in 2020, which featured the hit singles 'Don't Start Now', 'Physical', 'Break My Heart', 'Hallucinate' & 'Levitating'
+                </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                </div>
+                <span class="views">268M views</span>
+
+            </div>
+            <!-- Actions -->
+            <ul class="actions">
+                <li>
+                    <button>
+                        <i class="active fas fa-thumbs-up"></i>
+                        <span>2.5M</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-thumbs-down"></i>
+                        <span>66K</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-share"></i>
+                        <span>share</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-plus"></i>
+                        <span>save</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-flag"></i>
+                        <span>report</span>
+                    </button>
+                </li>
+            </ul>
+            <!-- Channel Description -->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="https://yt3.ggpht.com/ytc/AAUvwnhDZXpXUoc7YNL7h7j6Y4o6lZnEPuWDy2lbuBO4NQ=s176-c-k-c0x00ffffff-no-rj-mo" alt="image">
+                    <div class="info">
+                    <span class="name">
+                        Dua Lipa
+                    </span>
+                        <span class="subscribers">
+                        17.2M subscribers
+                    </span>
+                    </div>
+                </div>
+                <button class="subscribe">
+                    subscribe
+                </button>
+            </div>
+        </section>
+
+        <!-- UP NEXT -->
+        <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img">
+                        <img src="./assets/images/img-1.jpeg" alt="image">
+                    </div>
+                    <div class="info">
+                    <span class="title">
+                        Dua Lipa - Break My Heart (Official Video)
+                    </span>
+                        <span class="name">
+                        Dua Lipa
+                    </span>
+                        <span class="views">
+                        351M views | 11 months ago
+                    </span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img">
+                        <img src="./assets/images/img-2.jpeg" alt="image">
+                    </div>
+                    <div class="info">
+                    <span class="title">
+                        Dua Lipa, Angèle - Fever (Official Music Video)
+                    </span>
+                        <span class="name">
+                        Dua Lipa
+                    </span>
+                        <span class="views">51M views | 4 months ago</span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="item">
+                    <div class="img">
+                        <img src="./assets/images/img-3.jpeg" alt="image">
+                    </div>
+                    <div class="info">
+                    <span class="title">
+                        Dua Lipa - Levitating Featuring DaBaby (Official Music Video)
+                    </span>
+                        <span class="name">
+                        Dua Lipa
+                    </span>
+                        <span class="views">
+                        133M views | 5 months ago
+                    </span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+<script src="./src/main.js"></script>
+</body>
+</html>
